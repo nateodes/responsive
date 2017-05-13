@@ -255,7 +255,27 @@ div.desc {
 		body {
 			background-color: #333;
 		}
-	
+		
+		.bio {
+			width: 90%;
+			margin: 0;
+			padding: 0;
+			text-align: justify;
+			font-size: 1vmin;
+		}
+		.biotext {
+		width: 90%;
+	}
+		.header {
+			position: relative;
+		}
+		
+		.portfolio {
+			overflow: auto;
+		}
+		article {
+			width: 90%;
+		}
 }
 
 @media screen {
@@ -263,12 +283,34 @@ div.desc {
 	body {
 			background-color: #333;
 		}
+	.bio {
+			width: 90%;
+			margin: 0;
+			padding: 0;
+			text-align: justify;
+			font-size: 5vmin;
+		}
+	.biotext {
+		width: 90%;
+	}
+	.header {
+			position: relative;
+		}
+	.portfolio {
+			overflow: auto;
+		}
+	article {
+			width: 90%;
+		}	
 }
 @media screen and (max-width: 768px) {
   /* The body's bg color will be #333 */
   body {
     background-color: #333;
-  }
+     }
+  
+		
+
 
   /* The wrapper's width will be 600px */
   .wrapper {
